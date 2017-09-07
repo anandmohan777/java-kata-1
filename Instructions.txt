@@ -1,0 +1,7 @@
+How to run:
+-----------
+The application is run by executing the Main class  i.e, MainApp.java
+
+How to Import in eclipse:
+-------------------------
+Go to eclipse -> Import -> CheckOut Maven project from SCM -> select git and url(https://github.com/anandmohan777/java-kata-1) -> finish

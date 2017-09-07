@@ -2,16 +2,13 @@ package org.echocat.kata.java.part1;
 
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
 import com.google.common.base.Optional;
-import com.google.common.base.Predicate;
 import com.opencsv.CSVReader;
 
 /**
@@ -141,7 +138,6 @@ public class MainApp {
 		}
 
 		String authorName = (author != null) ? (", AUTHORS NAME: " + name) : "";
-
 		System.out.println(data.getType() + " ISBN: " + data.getIsbn()
 				+ ", TITLE: " + data.getTitle() + authorName
 				+ ", DESCRIPTION: " + book.getDescription());
