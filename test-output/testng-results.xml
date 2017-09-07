@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="77" started-at="2017-09-07T22:16:42Z" finished-at="2017-09-07T22:16:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="77" started-at="2017-09-07T22:16:42Z" finished-at="2017-09-07T22:16:42Z">
+      <class name="org.echocat.kata.java.part1.MainAppUnitTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.echocat.kata.java.part1.MainAppUnitTest@5d5eef3d]" name="setup" is-config="true" duration-ms="5" started-at="2017-09-08T03:46:42Z" finished-at="2017-09-08T03:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testGetHelloWorldText()[pri:0, instance:org.echocat.kata.java.part1.MainAppUnitTest@5d5eef3d]" name="testGetHelloWorldText" duration-ms="55" started-at="2017-09-08T03:46:42Z" finished-at="2017-09-08T03:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHelloWorldText -->
+      </class> <!-- org.echocat.kata.java.part1.MainAppUnitTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
